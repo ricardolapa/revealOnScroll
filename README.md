@@ -7,13 +7,15 @@ jQuery Method for reveal objects onScroll with animation
 *wrap the element on a div with a class 'rl-fadeObject' on the target object*
 
 ```
-<div class="myelement rl-fadeObject">
+<div class="rl-fadeObject">
    <h1>My Title</h1>
 </div>
 ```
 
-*call the method*
+*controll the speed with data value*
 
 ```
-fadeObject('selector', speed);
+<div class="rl-fadeObject" data-rj-speed="800">
+   <h1>My Title</h1>
+</div>
 ```
