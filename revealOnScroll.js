@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     var positionTop = 0,
         windowHeight = 0,
-        positionBottom = 0,
+        positionBottom = 0;
 
 
     $(window).scroll(function() {
